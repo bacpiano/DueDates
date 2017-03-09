@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="DueDate" representedClassName="DueDate" syncable="YES">
+        <attribute name="alarm" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="due_amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="due_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="is_alarm" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_completed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DueDate" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
